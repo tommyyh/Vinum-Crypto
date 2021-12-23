@@ -35,6 +35,7 @@ h2 {
 
 .bg-image {
   width: 100%;
+  height: 430%;
   position: absolute;
   top: 0;
   left: 0;
@@ -64,10 +65,10 @@ header {
 
 header img {
   position: absolute;
-  width: 125%;
+  width: 115%;
   opacity: 92%;
-  left: -2.2%;
-  top: -42%;
+  left: -5%;
+  top: -40%;
   z-index: -5;
 }
 
@@ -106,8 +107,8 @@ main {
   font-size: 1.6rem;
   color: #fff;
   opacity: 77%;
-  font-weight: 500;
   writing-mode: vertical-lr;
+  font-weight: 500;
 }
 
 .main {
@@ -139,20 +140,200 @@ main {
 }
 
 .main_logo {
-  right: 8%;
-  top: 12.2%;
+  left: 8%;
+  top: 18%;
   position: absolute;
 }
 
 .main_logo img {
-  width: 5.8rem;
+  width: 4.2rem;
 }
 
-.main_logo h4 {
-  line-height: 1.2rem;
-  margin-top: 0.18rem;
+.main_bottom {
+  display: flex;
+  height: 35%;
+  padding-left: 2%;
+  width: 100%;
+}
+
+.main_bottom_l {
+  height: 100%;
+  width: 12%;
+}
+
+.main_bottom_r {
+  height: 100%;
+  width: 88%;
+  border-left: var(--border);
+}
+
+.more {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  height: 60%;
+  padding-left: 2%;
+  width: 100%;
+}
+
+.more_r::before {
+  content: 'WHY ARE WE HERE?';
+  position: absolute;
+  top: -23%;
+  font-size: 5rem;
+  font-weight: bolder;
   color: #fff;
-  opacity: 90%;
-  font-weight: 100;
-  text-align: right;
+}
+
+.more_l {
+  height: 100%;
+  width: 12%;
+}
+
+.more_r {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 88%;
+  border-left: var(--border);
+  background: #fff;
+  padding: 0 6%;
+}
+
+.more_r h2 {
+  transform: scale(-1, -1);
+  writing-mode: vertical-lr;
+  font-size: 1.8rem;
+  padding: 3rem 0.6rem;
+  font-weight: bolder;
+  border: 0.1rem solid var(--accent-color);
+  color: var(--accent-color);
+}
+
+.more_r p {
+  opacity: 70%;
+  font-weight: 500;
+  line-height: 1.9rem;
+}
+
+.more_r p:last-child {
+  margin-top: 2.2rem;
+}
+
+.more_r span {
+  padding: 0 26% 0 9%;
+}
+
+.concept {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  height: 60%;
+  width: 100%;
+  margin-top: 20%;
+}
+
+.concept_r::before {
+  content: 'WHAT’S OUR VISION?';
+  position: absolute;
+  top: -24.5%;
+  right: 0;
+  font-size: 5.6rem;
+  font-weight: bolder;
+  color: #fff;
+}
+
+.concept_r {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 88%;
+  border-left: var(--border);
+  background: #fff;
+  padding: 0 6%;
+}
+
+.concept_r h2 {
+  writing-mode: vertical-rl;
+  font-size: 1.8rem;
+  padding: 3rem 0.6rem;
+  font-weight: bolder;
+  border: 0.1rem solid var(--accent-color);
+  color: var(--accent-color);
+}
+
+.concept_r p {
+  opacity: 70%;
+  font-weight: 500;
+  line-height: 1.9rem;
+}
+
+.concept_r p:last-child {
+  margin-top: 2.2rem;
+}
+
+.concept_r span {
+  padding: 0 12% 0 23%;
+}
+
+.wine {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  height: 60%;
+  padding-left: 2%;
+  width: 100%;
+  margin-top: 20%;
+}
+
+.wine_r::before {
+  content: 'WHAT IS OUR PASSION?';
+  position: absolute;
+  top: -22%;
+  left: 0;
+  font-size: 5rem;
+  font-weight: bolder;
+  color: #fff;
+}
+
+.wine_l {
+  height: 100%;
+  width: 12%;
+}
+
+.wine_r {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 88%;
+  border-left: var(--border);
+  background: #fff;
+  padding: 0 6%;
+}
+
+.wine_r h2 {
+  transform: scale(-1, -1);
+  writing-mode: vertical-lr;
+  font-size: 1.8rem;
+  padding: 5.5rem 0.6rem;
+  font-weight: bolder;
+  border: 0.1rem solid var(--accent-color);
+  color: var(--accent-color);
+}
+
+.wine_r p {
+  opacity: 70%;
+  font-weight: 500;
+  line-height: 1.9rem;
+}
+
+.wine_r p:last-child {
+  margin-top: 2.2rem;
+}
+
+.wine_r span {
+  padding: 0 23% 0 9%;
 }
