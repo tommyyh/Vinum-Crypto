@@ -337,3 +337,43 @@ main {
 .wine_r span {
   padding: 0 23% 0 9%;
 }
+
+.roadmap {
+  background: #fff;
+  margin-top: 30vh;
+  position: relative;
+  padding: 8% 0 7% 14%;
+}
+
+.roadmap-title {
+  width: 27rem;
+  margin-left: -1rem;
+  margin-bottom: 1rem;
+}
+
+.roadmap_section {
+  margin-top: 3.8rem;
+  padding-right: 70%;
+}
+
+.roadmap_section img {
+  width: 14rem;
+}
+
+.roadmap_section li {
+  margin-top: 0.5rem;
+  color: #525252;
+  list-style-type: '- ';
+  font-size: 0.96rem;
+}
+
+.roadmap_section ul {
+  margin-top: 1rem;
+}
+
+.leaves {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+}
