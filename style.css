@@ -444,3 +444,45 @@ main {
 .coll_text li:first-child {
   margin-top: 1rem;
 }
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  padding: 12% 0 0 0;
+}
+
+.gallery_slogan {
+  width: 100vw;
+}
+
+.gallery_background {
+  top: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.gallery_bottles {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 13.5%;
+  width: 100%;
+  margin-top: 1.5%;
+}
+
+.gallery_bottle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32.3%;
+  height: 86vh;
+  background: #ebeffc;
+  border-radius: 1rem;
+  border: 0.26rem var(--accent-color) solid;
+}
+
+.gallery_bottle img {
+  width: 8.3em;
+}
