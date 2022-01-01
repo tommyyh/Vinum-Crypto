@@ -554,3 +554,135 @@ main {
   opacity: 89%;
   line-height: 1.8rem;
 }
+
+.funds {
+  display: flex;
+  width: 100%;
+  height: 104vh;
+  background: var(--accent-color);
+}
+
+.funds_l {
+  position: relative;
+  width: 15%;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(197, 167, 255, 0) 0%, #a088cc 100%);
+}
+
+.funds_l::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 0.05rem;
+  background: #fff;
+  top: 14%;
+  right: -40%;
+}
+
+.funds_l::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 14%;
+  top: 0;
+  background: var(--accent-color);
+}
+
+.funds_r {
+  position: relative;
+  width: 15%;
+  height: 100%;
+  background: linear-gradient(-90deg, rgba(197, 167, 255, 0) 0%, #a088cc 100%);
+}
+
+.funds_r::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 0.05rem;
+  background: #fff;
+  bottom: 9%;
+  left: -40%;
+}
+
+.funds_r::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 9%;
+  bottom: 0;
+  background: var(--accent-color);
+}
+
+.funds_m {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 73%;
+  height: 100%;
+  border-left: var(--border);
+  border-right: var(--border);
+  padding-top: 7%;
+}
+
+.funds_m h2 {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.funds_m img {
+  width: 80%;
+  margin-top: 1rem;
+}
+
+.team {
+  display: flex;
+  width: 100%;
+  height: 37vh;
+  background: var(--accent-color);
+}
+
+.team_left {
+  position: relative;
+  width: 29.8%;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(197, 167, 255, 0) 0%, #a088cc 100%);
+  border-right: var(--border);
+}
+
+.team_left::after {
+  content: '';
+  position: absolute;
+  width: 71%;
+  height: 0.05rem;
+  background: #fff;
+  bottom: 0%;
+  right: 0;
+}
+
+.team_main {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  width: 174%;
+  height: 100%;
+}
+
+.team_main h2 {
+  writing-mode: vertical-rl;
+  color: var(--accent-color);
+  font-weight: bolder;
+  transform: scale(-1, -1);
+  font-size: 3.3rem;
+  margin-left: 5%;
+}
+
+.team_main p {
+  opacity: 89%;
+  line-height: 1.83rem;
+  font-size: 0.9em;
+  margin-left: 5%;
+  margin-right: 35%;
+}
