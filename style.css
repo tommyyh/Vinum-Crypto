@@ -686,3 +686,120 @@ main {
   margin-left: 5%;
   margin-right: 35%;
 }
+
+.team_bar {
+  display: flex;
+  width: 100%;
+  height: 14vh;
+  background: var(--accent-color);
+}
+
+.team_bar_l {
+  width: 14.65%;
+  border-right: var(--border);
+}
+
+.team_bar2 {
+  display: flex;
+  width: 100%;
+  height: 14vh;
+}
+
+.team_bar_l2 {
+  width: 14.65%;
+  border-right: 0.09rem var(--accent-color) solid;
+}
+
+.expanding {
+  display: flex;
+  width: 100%;
+  height: 83vh;
+  padding-left: 4%;
+}
+
+.expanding_l {
+  width: 12.47%;
+  border-top: 0.09rem var(--accent-color) solid;
+  border-right: 0.09rem var(--accent-color) solid;
+  background: linear-gradient(90deg, rgba(197, 167, 255, 0) 0%, #a088cc 100%);
+  margin-top: -0.04%;
+}
+
+.expanding_r {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-top: 0.09rem var(--accent-color) solid;
+  padding: 0 0 0 7.5%;
+}
+
+.expanding_r h2 {
+  color: var(--accent-color);
+  font-size: 4.5rem;
+  font-weight: bolder;
+}
+
+.expanding_r li {
+  list-style-type: '- ';
+  margin-top: 0.3rem;
+  color: var(--accent-color);
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+.expanding_r p {
+  color: var(--accent-color);
+  opacity: 90%;
+  line-height: 1.8rem;
+  margin-right: 30%;
+  margin-top: 3rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: var(--accent-color);
+  height: 50vh;
+}
+
+footer h2 {
+  color: #fff;
+  font-size: 1.8rem;
+}
+
+footer h3 {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 0.4rem;
+}
+
+footer h4 {
+  color: #fff;
+  opacity: 70%;
+  font-size: 1rem;
+  font-weight: 200;
+  margin-top: 3.7rem;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+  width: 6rem;
+  margin-top: 1rem;
+}
+
+footer img {
+  width: 1.5rem;
+}
+
+@media all and (min-width: 1025px) {
+  html {
+    font-size: 1.25vw;
+  }
+}
