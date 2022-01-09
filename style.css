@@ -35,7 +35,7 @@ h2 {
 
 .bg-image {
   width: 100%;
-  height: 430%;
+  height: 445%;
   position: absolute;
   top: 0;
   left: 0;
@@ -68,7 +68,7 @@ header img {
   width: 115%;
   opacity: 92%;
   left: -5%;
-  top: -40%;
+  top: -43.5%;
   z-index: -5;
 }
 
@@ -201,14 +201,9 @@ main {
   padding: 0 6%;
 }
 
-.more_r h2 {
-  transform: scale(-1, -1);
-  writing-mode: vertical-lr;
-  font-size: 1.8rem;
-  padding: 3rem 0.6rem;
-  font-weight: bolder;
-  border: 0.1rem solid var(--accent-color);
-  color: var(--accent-color);
+.more_r img {
+  width: 7rem;
+  margin-right: -2rem;
 }
 
 .more_r p {
@@ -255,13 +250,8 @@ main {
   padding: 0 6%;
 }
 
-.concept_r h2 {
-  writing-mode: vertical-rl;
-  font-size: 1.8rem;
-  padding: 3rem 0.6rem;
-  font-weight: bolder;
-  border: 0.1rem solid var(--accent-color);
-  color: var(--accent-color);
+.concept_r img {
+  width: 7rem;
 }
 
 .concept_r p {
@@ -275,7 +265,7 @@ main {
 }
 
 .concept_r span {
-  padding: 0 12% 0 23%;
+  padding: 0 5% 0 23%;
 }
 
 .wine {
@@ -314,18 +304,12 @@ main {
   padding: 0 6%;
 }
 
-.wine_r h2 {
-  transform: scale(-1, -1);
-  writing-mode: vertical-lr;
-  font-size: 1.8rem;
-  padding: 5.5rem 0.6rem;
-  font-weight: bolder;
-  border: 0.1rem solid var(--accent-color);
-  color: var(--accent-color);
+.wine_r img {
+  width: 7rem;
 }
 
 .wine_r p {
-  opacity: 70%;
+  opacity: 68%;
   font-weight: 500;
   line-height: 1.9rem;
 }
@@ -335,7 +319,7 @@ main {
 }
 
 .wine_r span {
-  padding: 0 23% 0 9%;
+  padding: 0 18% 0 9%;
 }
 
 .roadmap {
@@ -347,7 +331,7 @@ main {
 
 .roadmap-title {
   width: 27rem;
-  margin-left: -1rem;
+  margin-left: -2rem;
   margin-bottom: 1rem;
 }
 
@@ -358,6 +342,7 @@ main {
 
 .roadmap_section img {
   width: 14rem;
+  margin-left: -1rem;
 }
 
 .roadmap_section li {
