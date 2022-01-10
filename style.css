@@ -100,15 +100,19 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  /* overflow-y: hidden; */
 }
 
 .main_side h3 {
+  position: absolute;
   transform: scale(-1, -1);
   font-size: 1.6rem;
   color: #fff;
   opacity: 77%;
   writing-mode: vertical-lr;
   font-weight: 500;
+  /* bottom: -60%; */
 }
 
 .main {
