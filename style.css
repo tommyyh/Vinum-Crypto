@@ -104,20 +104,21 @@ main {
   overflow-y: hidden;
 }
 
-.main_side img {
+.main_side span {
+  display: flex;
   position: absolute;
   transform: rotate(-90deg);
-  bottom: -60%;
-  animation: text 6s infinite ease-in-out;
+  bottom: 0%;
+  animation: text 7s infinite linear;
 }
 
 @keyframes text {
   0% {
-    bottom: -60%;
+    bottom: -3%;
   }
 
   100% {
-    bottom: 140%;
+    bottom: 69%;
   }
 }
 
