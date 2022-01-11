@@ -101,18 +101,24 @@ main {
   justify-content: center;
   align-items: center;
   position: relative;
-  /* overflow-y: hidden; */
+  overflow-y: hidden;
 }
 
-.main_side h3 {
+.main_side img {
   position: absolute;
-  transform: scale(-1, -1);
-  font-size: 1.6rem;
-  color: #fff;
-  opacity: 77%;
-  writing-mode: vertical-lr;
-  font-weight: 500;
-  /* bottom: -60%; */
+  transform: rotate(-90deg);
+  bottom: -60%;
+  animation: text 6s infinite ease-in-out;
+}
+
+@keyframes text {
+  0% {
+    bottom: -60%;
+  }
+
+  100% {
+    bottom: 140%;
+  }
 }
 
 .main {
