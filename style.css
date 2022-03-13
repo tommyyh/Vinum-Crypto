@@ -33,10 +33,10 @@ h2 {
 }
 
 .top-bottle {
-  width: 36%;
+  width: 76%;
   position: absolute;
-  top: -44%;
-  right: -7.8%;
+  top: -37%;
+  right: -27%;
   z-index: 4;
 }
 
@@ -137,7 +137,7 @@ main {
   line-height: 2.5rem;
   color: var(--primary-color);
   letter-spacing: 0.05rem;
-  margin-top: 14%;
+  margin-top: 10%;
 }
 
 .main h1 span {
@@ -176,7 +176,7 @@ main {
   position: relative;
   z-index: 5;
   display: flex;
-  height: 60%;
+  height: 60vh;
   padding-left: 2%;
   width: 100%;
 }
@@ -229,7 +229,7 @@ main {
   position: relative;
   z-index: 5;
   display: flex;
-  height: 60%;
+  height: 60vh;
   width: 100%;
   margin-top: 20%;
 }
@@ -277,7 +277,7 @@ main {
   position: relative;
   z-index: 5;
   display: flex;
-  height: 60%;
+  height: 60vh;
   padding-left: 2%;
   width: 100%;
   margin-top: 20%;
@@ -402,10 +402,10 @@ main {
 
 .coll_bottle {
   position: absolute;
-  width: 30%;
-  top: 27%;
+  width: 75%;
+  top: 25%;
   transform: translateY(-50%);
-  margin-left: 7.6%;
+  margin-left: -15%;
 }
 
 .coll_text {
@@ -435,50 +435,72 @@ main {
   margin-top: 1rem;
 }
 
-.gallery {
+.slider {
+  width: 100%;
+  height: 35.5rem;
+  max-height: 35.5rem;
+}
+
+.arrow_cont {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  width: 100%;
-  position: relative;
-  padding: 12% 0 12% 0;
-}
-
-.gallery_slogan_mobile {
-  display: none;
-}
-
-.gallery_slogan {
-  width: 100vw;
-}
-
-.gallery_background {
-  top: 0;
-  position: absolute;
-  z-index: -1;
-}
-
-.gallery_bottles {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 13.5%;
-  width: 100%;
-  margin-top: 1.5%;
-}
-
-.gallery_bottle {
-  display: flex;
   justify-content: center;
-  align-items: center;
-  width: 32.3%;
-  height: 86vh;
-  background: #ebeffc;
-  border-radius: 1rem;
-  border: 0.26rem var(--accent-color) solid;
+  position: absolute;
+  left: 2%;
+  top: 45%;
+  transform: rotate(180deg);
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: 0.1rem #fff solid;
+  cursor: pointer;
+  transition: ease 300ms;
+  z-index: 1000;
 }
 
-.gallery_bottle img {
-  width: 8.3em;
+.arrow_cont:hover {
+  border: 0.1rem #d4d4d4 solid;
+}
+
+.arrow_cont2:hover {
+  border: 0.1rem #d4d4d4 solid;
+}
+
+.arrow_cont2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 2%;
+  top: 45%;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: 0.1rem #fff solid;
+  transition: ease 300ms;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.slider_slide {
+  display: flex;
+  width: 100%;
+  height: 35.5rem;
+  max-height: 35.5rem;
+  overflow-x: hidden;
+  position: relative;
+  background: #000;
+}
+
+.videos_mid,
+.videos_last {
+  margin-left: 0.4rem;
+}
+
+.slider video {
+  height: 35.5rem;
+  transition: ease 300ms;
+  cursor: pointer;
 }
 
 .holder {
@@ -826,10 +848,10 @@ footer img {
 
   .top-bottle-m {
     display: initial;
-    width: 60%;
+    width: 200%;
     position: absolute;
-    top: -40%;
-    right: 0%;
+    top: -25%;
+    right: -80%;
     z-index: 4;
   }
 
@@ -852,6 +874,7 @@ footer img {
     top: 0;
     left: 0;
     z-index: -5;
+    object-fit: cover;
   }
 
   .top-bottle {
@@ -960,7 +983,6 @@ footer img {
     line-height: 1.7rem;
     color: var(--primary-color);
     letter-spacing: 0.05rem;
-    margin-top: 0;
     margin-bottom: 25%;
     font-size: 1.3rem;
   }
@@ -1071,7 +1093,7 @@ footer img {
   .concept_r::before {
     content: 'WHAT’S OUR VISION?';
     position: absolute;
-    top: -7%;
+    top: -7.3%;
     right: initial;
     left: 10%;
     font-size: 1.4rem;
@@ -1123,7 +1145,7 @@ footer img {
   .wine_r::before {
     content: 'WHAT IS OUR PASSION?';
     position: absolute;
-    top: -5%;
+    top: -5.5%;
     left: 0;
     font-size: 1.4rem;
     font-weight: bolder;
@@ -1243,10 +1265,10 @@ footer img {
 
   .coll_bottle {
     position: absolute;
-    width: 30%;
-    top: 5%;
+    width: 70%;
+    top: 8%;
     transform: translateY(-50%);
-    margin-left: 7.5%;
+    margin-left: -11%;
   }
 
   .coll_text {
@@ -1649,5 +1671,17 @@ footer img {
 
   footer img {
     width: 1.5rem;
+  }
+
+  .slider video {
+    width: 100vw;
+    height: auto;
+    transition: ease 300ms;
+    cursor: pointer;
+  }
+
+  .slider_slide,
+  .slider {
+    height: auto;
   }
 }
